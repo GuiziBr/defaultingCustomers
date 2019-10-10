@@ -1,0 +1,28 @@
+{
+  "name": "fullstack_developer_challenge",
+  "version": "1.0.0",
+  "description": "Aplicacao para listamge de clientes inadimplentes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiziBr/defaultingCustomers.git"
+  },
+  "author": "Ricardo Guizi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuiziBr/defaultingCustomers/issues"
+  },
+  "homepage": "https://github.com/GuiziBr/defaultingCustomers#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
