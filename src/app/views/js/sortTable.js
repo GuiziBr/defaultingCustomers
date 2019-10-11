@@ -1,3 +1,5 @@
+//Ordenacao nao finalizada
+
 function sortColumn(column) {
   let trows = document.getElementsByClassName("defaulters");
   switch (column) {
