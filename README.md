@@ -18,5 +18,6 @@ Aplicação para listagem de clientes inadimplentes
 1. Clonar o projeto
 2. Com o docker instalado, executar o comando "docker run --name mongoclientes -p 27017:27017 -d -t mongo" para criar o container do banco de dados mongoDb
 3. Na pasta do projeto, executar o comando "npm install", para instalar as dependências do projeto
-4. Inserir registros na base através do método POST na roda "defaulters"
-5. Abrir o arquivo index.html localizado na pasta src/views
+4. Executar o comando "npm start" para iniciar o servidor nodejs
+5. Inserir registros na base através do método POST na roda "defaulters"
+6. Abrir o arquivo index.html localizado na pasta src/views
